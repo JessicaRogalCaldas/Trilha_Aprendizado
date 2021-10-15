@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon7.ico" type="img/x-icon">
+    <title>Softwares de Versionamento</title>
+</head>
+<body>
+<h1><font color="blue"><strong>BRANCHES</strong></font></h1>
+<p>São ramificações de um projeto de software ou documento e tem como objetivo o desenvolvimento paralelo de:
+</p>
+<ul>
+    <li>Novas funcionalidades</li>
+    <li>Correção de problemas</li>
+    <li>Alteração de código</li>
+</ul>
+<li><strong><a href="#bm">Branche Master ou Main</a></strong></li>
+<li><strong><a href="#bs">Branche Secundária</a></strong></li>
+<h1><font color="blue"><a name="bm">BRANCHE MASTER OU MAIN</a></font></h1>
+<p>Braço principal de um projeto em um repositório</p>
+<h1><font color="blue"><a name="bm">BRANCHE SECUNDÁRIA</a></font></h1>
+<p>Braço secundário de um projeto em um repositório</p>
+<ol type="1">
+    <li><a href="#1">Forma de realizar as branches.</a></li>
+    <li><a href="#2">Junção das branches.</a></li>
+    <li><a href="#3">Hospedagem</a></li>
+    <li><a href="#4">Dicas</a></li>
+</ol>
+
+<h1><strong><a name="1">FORMA CORRETA DE FAZER:</a></strong></h1>
+<p>Ter uma versão estável na branch master(principal) que os usuários estão usando, enquanto isso a equipe pode fazer alterações no repositório em branchs secundárias sem prejudicar a principal.</p>
+<p><strong>PASSO A PASSO</strong></p>
+<p>Acesse o github e faça seu login, caso não tenha uma conta, acesse<a href="rde06.html" target="_blank">Softwares de Versionamento</a> para aprender.</p>
+<p>Feito o login, os repositórios feitos irão aparecer.<br>Para criar outro repositório pode fazer desta forma:</p>
+<figure>
+    <img src="img/criandorep1.png">
+</figure>
+<p>Para criar um repositório utilizando o github Desktop:</p>
+<ol type="1">
+    <li>Abra o github desktop, <i>também disponível como baixar no conteúdo <a href="rde06.html" target="_blank">Softwares de Versionamento</a>.</i></li>
+    <li>Acesse o file e cria um novo repositório:</li>
+</ol>
+<figure>
+    <img src="img/criandorep2.jpg">
+</figure>
+<p>Assim, começa a configurar o nome e tudo o que for preciso. Após isso é preciso clicar em publish repository para que ele vá até o site do github.com, escolhendo se quer privado ou público. <br>Vá até o github.com e atualize a página.<br>obs: o arquivo <i>readme</i> é a descrição que foi feita.</p>
+<figure>
+    <img src="img/criandorep3.jpg.png">
+</figure>
+<ol>
+    <li>Abra o github Desktop e clique para abrir no visual studio code.</li>
+    <li>Localize o repositório e cria um arquivo html e pode começar a codificação.</li>
+    <li><strong><i>ATENÇÃO: Lembre-se sempre de salvar e fazer o commit para guardar a versão e alteração feita.</i></strong></li>
+</ol>
+<figure>
+    <img src="img/criandorep4.png">
+</figure>
+<ol>
+    <li>Clique em push origin para sincronizar.</li>
+</ol>
+<figure>
+    <img src="img/criandorep5.png">
+</figure>
+<p>Após colococar o código principal, fazer o commit e o push, ja esta pronto para começar.</p>
+<p>No github Desktop a informacao alterada é sempre mostrada na linha<br>Após o término do código, pode ser que ocorra a necessidade de mudá-lo, isso afetará os usuários que terão acesso ao código, por isso é necessário fazer uma <i>branch secundária</i>, onde as alterações poderão ser feitas sem afetar a main(principal).</p>
+<P>Da seguinte forma:</P>
+<p>Pode clicar direto no branch, ou em main e clicar em new branch. </p>
+<figure>
+    <img src="img/criandorep6.png.jpg">
+</figure>
+<p>Após isso cria um nome e cria a branch. Pede para publicar, clicando em publish blanch</p>
+<figure>
+    <img src="img/criandorep7.png.jpg.png">
+</figure>
+<p>Então, no github.com, no repositório criado tem duas branches:</p>
+<ol>
+    <li>Main: o usuário vê de primeira, pois é a principal.</li>
+    <li>Secundária: é possível realizar as modificações.</li>
+</ol>
+<p>Voltando ao github desktop, abre a secundária no visual studio code.<br>Após realizar as modificações na branch secundária, é preciso realizar o commit</p>
+<figure>
+    <img src="img/criandorep8.png">
+</figure>
+<p>E clicar em push:</p>
+<figure>
+    <img src="img/criandorep9.png">
+</figure>
+<p>Dessa forma será feita a sincronização com o repositório remoto.</p>
+
+<p>No github.com terá a branch principal que não foi alterada, e a secundária já com a informação da modificação.</p>
+<p>obs: Lembrar sempre de fazer o commit, verificando a branch desejada.</p>
+
+<h1><font color="blue"><strong><a name="2">COMO JUNTAR BRANCHES SECUNDÁRIAS NA PRINCIPAL:</a></strong></font></h1>
+<p>Primeiro precisa escolher o branch principal.</p>
+<figure>
+    <img src="img/sincronizar1.jpg">
+</figure>
+<p>Feito isso, clica em branch e clica para fazer o merge.</p>
+<figure>
+    <img src="img/sincronizar2.png">
+</figure>
+<p>Escolhe a secundária para inserir na principal.</p>
+<figure>
+    <img src="img/sincronizar3.png">
+</figure>
+<p>Depois clica em push, fazendo a sincronização.</p>
+<p>Pode ocorrer um erro ao sincronizar outra branch junto com a principal, assim é preciso abrir no visual studio code, onde será mostrado o erro. Assim deve-se escolher uma opção:</p>
+<figure>
+    <img src="img/sincronizar4.jpg">
+</figure>
+<p>Com ela as alterações e sincronizações serão aceitas, assim pode fazer um commit do merge.</p>
+<figure>
+    <img src="img/sincronizar5.png">
+</figure>
+<p>Automaticamente acontecerá uma sincronização com o repositório remoto, clicando no push origin.<br>A partir de agora o main tem todas as versões sincronizadas.</p>
+
+<p>Com o branch principal atualizado, é possível escolher a branch  de preferência e realizar o <i>update from main</i></p>
+<figure>
+    <img src="img/sincronizar6.png">
+</figure>
+<p>Com isso, acontece uma atualização através do main, para que não precise criar as branches secundárias.<br>obs: pode criar uma nova branch a partir de uma secundária também</p>
+
+<h1><font color="blue"><strong><a name="3">HOSPEDAGEM</a></strong></font></h1>
+<p>A etapa de hospedagem de um site é importante por QUEBRA consolida e finaliza seu trabalho e desenvolvimento, onde qualquer suário que tem acesso a nternet poderá ver o conteúdo do site.<br>Para hospedar, em geral precisa pagar para hospedar o site, mas o github oferece uma hospedagem gratuita:</p>
+
+<h3><strong>GitHub Pages</strong></h3>
+<p>Hospedagem gratuita de sites. Basta criar uma conta e um repositório público e a URL será: https://nomeusuario.github.io/repositorio</p>
+<p><strong>COMO HOSPEDAR NO GITHUB PAGES:</strong></p>
+<p>Abra  o github.com e clique em um repositório desejado para fazer a hospedagem no github pages. Depois clique nas configurações.</p>
+<figure>
+    <img src="img/pages1.jpg">
+</figure>
+<p>Pode realizar diversas alterações.<br>Role a página até encontrar o github pages- páginas do github:</p>
+<figure>
+    <img src="img/pages2.png">
+</figure>
+<p>Importante que o repositório esteja público, isso será mostrado na zona de perigo.</p>
+<figure>
+    <img src="img/pages3.jpg">
+</figure>
+<p>Selecione a branch desejada.</p>
+<figure>
+    <img src="img/pages4.png">
+</figure>
+<p>Salve:</p>
+<figure>
+    <img src="img/pages5.png">
+</figure>
+<p>No momento em que é salvo, automaticamente avisa que o site foi publicado no teu endereço da web, assim o arquivo ja esta hopsedado no site.<br>Importante testar uma alteração na branch secundária para ver se realmente não muda na principal.</p>
+<P><strong><a name="4">DICAS</a></strong></P>
+<p>Possível colocar outro repositório.</p>
+<p>Para os arquivos ficarem disponiveis na forma de hipertexto, é preciso clicar em configurações, como já mostrado e ir até o github pages:</p>
+<ul>
+    <li>Escolher a branch principal:</li>
+</ul>
+<figure>
+    <img src="img/dica1.jpg">
+</figure>
+<p>Salvar. Assim o link ja estará disponivel.</p>
+</body>
+</html>

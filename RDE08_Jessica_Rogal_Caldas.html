@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img8/asas.ico" type="img/x-icon">
+    <title>Tags</title>
+</head>
+<body>
+<h1><strong><font color="red">TAGS:</font></strong></h1>
+<ol type="1">
+    <li><a href="#1">Table</a></li>
+    <li><a href="#2">Del</a></li>
+    <li><a href="#2">Ins</a></li>
+    <li><a href="#3">Sub</a></li>
+    <li><a href="#3">Sup</a></li>
+    <li><a href="#4">Blockquote</a></li>
+    <li><a href="#4">Q</a></li>
+    <li><a href="#5">Cite</a></li>
+    <li><a href="#6">Address</a></li>
+    <li><a href="#7">Abbr</a></li>
+    <li><a href="#8">Bdo</a></li>
+    <li><a href="#9">Code</a></li>
+    <li><a href="#10">Pre</a></li>
+    <li><a href="#11">Kbd</a></li>
+</ol>
+<h3><strong><font color="pink"><a name="1">Table</a></font></strong></h3>
+<p>Tag utilizada para inserir uma tabela HTML.<br>A tag < table > pode conter um elemento ou mais, como < tr > , < th>  e < td > .</p>
+<ul>
+    <li>< tr >: Define uma linha da tabela.</li>
+    <li>< th >: Define cabeçalho.</li>
+    <li>< td >: Define uma célula da tabela.</li>
+</ul>
+<p>Uma tabela HTML também pode incluir os elementos < caption > , < colgroup > , < thead > , < tfoot > e < tbody > .</p>
+<p><strong>Implementação:</strong></p>
+<figure>
+    <img src="img8/table1.png">
+</figure>
+<p>Resultado:</p>
+<table>
+    <tr>
+        <th>Segunda</th>
+        <th>Terça</th>
+      <th>Quarta</th>
+    </tr>
+    <tr>
+      <td>Aulas</td>
+      <td>Treinos</td>
+      <td>Descanso</td>
+    </tr>
+  </table>
+<p>Também é possível adicionar bordas na tabela:</p>
+<figure>
+    <img src="img8/borda.png">
+</figure>
+<p>Resultado:</p>
+<table>
+    <table border="5">
+        <tr>
+            <th>Segunda</th>
+            <th>Terça</th>
+          <th>Quarta</th>
+        </tr>
+        <tr>
+          <td>Aulas</td>
+          <td>Treinos</td>
+          <td>Descanso</td>
+        </tr>
+   
+    </table>
+</table>
+<p>Também é possível espaçar os elementos da tabela:</p>
+<figure>
+    <img src="img8/borda2.png">
+</figure>
+<p>Resultado:</p>
+<table >
+    <table border="5" cellspacing="10" cellpadding="10" >
+        <tr>
+            <th>Segunda</th>
+            <th>Terça</th>
+          <th>Quarta</th>
+        </tr>
+        <tr>
+          <td>Aulas</td>
+          <td>Treinos</td>
+          <td>Descanso</td>
+        </tr>
+    </table>
+</table>
+<ul>
+    <li>Border: Define tamanho da borda.</li>
+    <li>Cellspacing: Define distância entre as células da tabela.</li>
+    <li>Cellpading: Define distância entre a borda e as células.</li>
+</ul>
+
+<h3><strong><font color="pink"><a name="2">Del e Ins</a></font></strong></h3>
+<p>A tag < del > define o texto que foi excluído de um documento.<br>O elemento pode ser usado para o propósito oposto: para indicar o texto que foi adicionado ao documento. < ins ></p>
+<p>Implementação:</p>
+<figure>
+    <img src="img8/borda3.jpeg">
+</figure>
+<p>Resultado:</p>
+<p>"É o <del>amor</del> que faz a magia acontecer na vida, Posy. Mesmo no dia mais sem graça, nas profundezas do inverno, o amor pode fazer o mundo se iluminar e parecer lindo como agora." - <ins>A sala das borboletas</ins></p>
+<h3><strong><font color="pink"><a name="3">Sub e Sup</a></font></strong></h3>
+<ul>
+    <li>Tag < Sub >:"subscript". Texto subscrito que aparece abaixo da linha.</li>
+    <li>Tag < Sup >:"superscript". Texto sobrescrito que aparece acima da linha. </li>
+</ul>
+<p>Podem aparecer com caracteries menores.</p>
+<figure>
+    <img src="img8/subp.png">
+</figure>
+<p>Resultado:</p>
+<p><sub>Descendo</sub> a escada.</p>
+<p><sup>Subindo</sup> a escada.</p>
+
+<h3><strong><font color="pink"><a name="4">Blockquote, Q</a></font></strong></h3>
+<ul>
+    <li>Tag < blockquote > especifica uma seção citada de outra fonte e indica que o texto incluído é uma longa citação. Normalmente, este é processado visualmente pelo recuo.</li>
+    <li>Tag < q > define uma pequena citação, implementado cercando o texto entre aspas. Próprio quando não há quebra de linha.</li>
+</ul>
+<p>Blockquote:</p>
+<figure>
+    <img src="img8/blockquote.png">
+</figure>
+<p>Resultado:</p>
+<p>O site Tec Mundo traz diversas infromações novas e curiosidades, veja uma delas: <blockquote cite="https://www.tecmundo.com.br/ciencia/225054-retorno-manny-startup-quer-reviver-mamutes-engenharia-genetica.htm">Uma empresa estadunidense anunciou esforços para “reviver” mamutes através de engenharia genética. A startup, criada no último dia 13, foi batizada de Colossal e tem como base uma ferramenta pioneira de edição de genes, denominada Crispr-Cas9 — desenvolvida em 2012 pelo pesquisador da Universidade Harvard, George Church.
+</blockquote>
+
+<p>Q:</p>
+<figure>
+    <img src="img8/q.png">
+</figure>
+<p>Resultado:</p>
+<p>A citação do livro "A sala das Borboletas" por Woman's Own é:
+    <q>Um romance intenso e inspirador, com personagens perfeitamente delineados.</q>
+</p>
+
+<h3><strong><font color="pink"><a name="5">Cite</a></font></strong></h3>
+<p>Cite define o título de um trabalho artístico, como uma música, um poema, etc.</p>
+<figure>
+    <img src="img8/cite.png">
+</figure>
+<p>Resultado:</p>
+<p>Veja a pintura noite estrelada de <cite>Vincent van Gogh</cite>. Visite <cite><a href="https://www.culturagenial.com/quadro-a-noite-estrelada-de-vincent-v" target="_blank">https://www.culturagenial.com/quadro-a-noite-estrelada-de-vincent-v</a></cite></p>
+
+<h3><strong><font color="pink"><a name="6">Address</a></font></strong></h3>
+<p>A tag < address > define informações de contato de um proprietário de um documento. Pode ser email, URL, endereço físco, telefone.</p>
+<figure>
+    <img src="img8/address.png">
+</figure>
+<p>Resultado:</p>
+<address>
+    Entre em contato com a autora desta página através do email <a href="mailto:jéssica.rogal21@gmail.com">jéssica.rogal21@gmail.com</a>"
+</address>
+  
+<h3><strong><font color="pink"><a name="7">Abbr</a></font></strong></h3>
+<p>A tag < abbr > define uma abreviação.</p>
+<figure>
+    <img src="img8/abbr.png">
+</figure>    
+<p>Resultado:</p>
+<p>Este documento fala sobre <abbr title="Tags">TAGS HTML</abbr></p>
+
+<h3><strong><font color="pink"><a name="8">Bdo</a></font></strong></h3>
+<p>A tag < bdo > substitui a direção do texto atual.</p>
+<ul>
+    <li>Dir: direção de texto.</li>
+    <li>ltr: indica que o texto ficará da esquerda para direita ( L eft- t o- R ight).</li>
+    <ul>
+        <li><bdo dir="ltr">Este texto ficará da esquerda para a direita</bdo></li>
+    </ul>
+    <li>rtl: indica que o texto ficará da direita  para a esquerda ( R eft- T o- L ight).</li>
+    <ul>
+        <li><bdo dir="rtl">Este texto ficará da direita para a esquerda.</bdo></li>
+    </ul>
+</ul>
+<figure>
+    <img src="img8/bdo.png">
+</figure>
+
+<h3><strong><font color="pink"><a name="9">Code</a></font></strong></h3>
+<p>A tag < code > é usada para definir um pedaço de código de computador. Indica que o texto é um pequeno fragmento de código, com o conteúdo interno exibido na fonte monoespaçada padrão do navegador.</p>
+<p>Ao citar uma tag por exemplo,<code>strong</code> que é um fragmento de código.</p>
+<figure>
+    <img src="img8/code.png">
+</figure>
+
+<h3><strong><font color="pink"><a name="10">Pre</a></font></strong></h3>
+<p> A tag <code>pre</code> define o texto pré-formatado.<br>Um texto dentro desse mesmo elemento é aplicável em uma fonte não proporcional da maneira em que o texto original foi estabelecido no arquivo. Espaços em branco são coletivos no texto da mesma forma em que este foi digitado.</p>
+<figure>
+    <img src="img8/pre.png">
+</figure>
+<p>Resultado:</p>
+<pre>O texto se encontrará escrito dessa forma.</pre>
+
+<h3><strong><font color="pink"><a name="11">Kbd</a></font></strong></h3>
+<p> A tag < kbd > é usada para definir a entrada do teclado. Representa uma extensão de texto embutido denotando a entrada textual do usuário a partir de um teclado, entrada de voz ou qualquer outro dispositivo de entrada de texto.<BR>O conteúdo interno é exibido na fonte monoespaçada padrão do navegador.</p>
+<figure>
+    <img src="img8/kbd.png">
+</figure>
+<p>Resultado:</p>
+<p>Precione <kbd>Ctrl</kbd> + <kbd>C</kbd> e copie o texto</p>
+</body>
+</html
+
+
+    

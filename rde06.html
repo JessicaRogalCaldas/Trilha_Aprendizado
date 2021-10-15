@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.ico" type="img/x-icon">
+    <title>Softwares de Versionamento</title>
+</head>
+<body>
+<ul>
+    <li><strong><a href="#software">O QUE É SOFTWARE DE VERSIONAMENTO?</a></strong></li>
+    <li><strong><a href="#funcionamento">ENTENDA COMO FUNCIONA:</a></strong></li>
+    <ol type="1">
+        <li><a href="#processo1">PROCESSO 1</a></li>
+        <li><a href="#processo2">PROCESSO 2</a></li>
+        <li><a href="#processo3">SOFTWARE DE CONTROLE DE VERSÃO</a></li>
+    </ol>
+    <li><strong><a href="#tipos">TIPOS DE SOFTWARE DE CONTRELE DE VERSÃO</a></strong></li>
+    <LI><STRONG><a href="#git">GIT</a></STRONG></LI>
+    <li><strong><a href="#github">GITHUB</a></strong></li>
+    <li><strong><a href="#softwares">SOFTWARES</a></strong></li>
+    <li><strong><a href="#instalação">PASSO A PASSO PARA A INSTALAÇÃO</a></strong></li>
+    <li><strong><a href="#comandos">COMANDOS</a></strong></li>
+    <li><strong><a href="#clonar">CLONANDO REPOSITÓRIOS</a></strong></li>
+    <li><strong><a href="#projetos">PROJETOS PRÉ-EXISTENTES</a></strong></li>
+
+</ul>
+<h1><font color="blue"><a name="software">SOFTWARES DE VERSIONAMENTO</a></font></h1>
+<p>Sistema que tem por objetivo realizar o <strong>controle de versões de um código ou documento.</strong><br>É possível gerenciar as versões de um <strong>código ou documento</strong> realizadas por um <strong>desenvolvedor</strong> ou <strong>>equipe de desenvolvedores.</strong></p>
+
+<h2><a name="procedimento">PROCEDIMENTO:</a></h2>
+
+<h2><strong>SOFTWARE DE CONTROLE DE VERSÕES</strong></h2>
+
+<p>Para desenvolver um projeto, codificando um software, site ou até mesmo a escrita de um documento word, é procedido da seguinte forma:</p>
+<p>No computador é criada uma pasta e o arquivo com o projeto, que é desenvolvido, finalizado e entregue.<br>Quando realizada a entrega, pode ser que ocorra a <strong><i>necessidade de uma correção ou atualização</i></strong> com alguma funcionalidade do software.<br> Para fazer: <br>Geralmente cria-se uma nova versão desse arquivo, realiza as atualizações e entrega. </p>
+<p><strong><a name="processo1">Exemplo:</a></strong></p>
+<figure>
+    <img src="img6/processo1.png">
+</figure>
+<p>Tal tipo de procedimento pode gerar dificuldades em acompanhar as versões, pois além de criar vários arquivos e realizar diversas atualizações, depois de modificadas, as <strong><i>versões anteriores não podem ser mais recuperadas.</i></strong></p>
+<p>Para isso é possível realizar o <strong>Controle de Versão:</strong></p>
+<p>Assim, através de um software, um repositório local vai ser criado e a partir do seu arquivo, um histórico de versões.</p>
+<p><strong><a name="processo2">Exemplo:</a></strong></p>
+<figure>
+    <img src="img6/processo2.png">
+</figure>
+<p>Também pode-se fazer um <strong>Repositório Remoto</strong>, onde necessita de um servidor específico para trabalhar com esse repositório.</p>
+<p><strong><a name="processo3">Sincronização:</a></strong></p>
+<figure>
+    <img src="img6/processo3.png">
+</figure>
+<p>Desta forma, o software de controle de versão vai sincronizar os repositórios, fazendo com que tudo que esteja no <i>repositório local</i> armazene no <i>remoto</i>.</p>
+<p>O software desta forma controla e permite quem irá fazer ou não as alterações, sempre notificando os usuários para não gerar problemas.</p>
+<figure>
+    <img src="img6/processofinal.png">
+</figure>
+
+<h2><strong><a name="tipos">TIPOS DE SOFTWARE DE CONTROLE DE VERSÃO</a></strong></h2>
+<ul>
+    <li><strong><a href="#c">Centralizado</a></strong></li>
+    <li><strong><a href="#d">Distribuído</a></strong></li>
+</ul>
+<h3><strong><a name="c">CENTRALIZADO</a></strong></h3>
+<p>Possui um repositório central em um servidor com controle de versões.<br>Nele todos os usuários se conectam e trabalham no servidor juntos. Quando o servidor para, todas as versões também vão parar, sendo <strong><i>totalmente dependente do servidor</i></strong></p>
+<p>Exemplo:</p><br><strong>Software Subversion</strong>
+
+<h3><strong><a name="d">DISTRIBUÍDO</a></strong></h3>
+<p>Possui um repositório local com controle de versões.<br>Atualizações no repositório central após concluir seu trabalho.<br><strong><i>Independente do servidor</i></strong>, caso ele caia o trabalho pode continuar sendo feito no repositório local e depois ser atualizado no central.<br>Exemplo:<br><strong>Software Mercurial, Git.</strong></p>
+
+<h2><strong><a name="git">GIT</a></strong></h2>
+<figure>
+    <img src="img6/git.png" alt="Git">
+</figure>
+<p>GIT é o próprio software de versionamento.<br><strong>Abreviação de sistema global de versionamento</strong><br>É um software livre de versionamento que surgiu para o desenvolvimento do Kernel do Linux, foi projetado e desenvolvido por <i>Linus Torvalds</i>em 2005.
+<figure>
+    <img src="img6/Linus.png" alt="Linus Torvalds">
+</figure>
+<p>Cada diretório de trabalho do Git é um repositório com um histórico completo e habilidade total de acompanhamento das revisões, não dependente de acesso a uma rede ou a um servidor central.</p>
+
+<h1><strong><a name="github">GITHUB</a></strong></h1>
+<figure>
+    <img src="img6/GitHub.png">
+</figure>
+<p>Plataforma de hospedagem de código-fonte e arquivos com controle de versão.<br>Surgiu em 2008 e foi adquirido em 2018 pela Microsoft por US$ 7,5 bilhões.<br>≈ 100 milhões de projetos; <br>≈ 56 milhões de usuários.
+<p>Logo da GitHub: OCTOCAT</p>
+<figure>
+    <img src="img6/octocat.png">
+</figure>
+<h1><strong>PREPARANDO O AMBIENTE</strong></h1>
+<p><strong><a name="softwares">SOFTWARES:</a></strong></p>
+<figure>
+    <img src="img6/softwares.png">
+</figure>
+<ul>
+    <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+    <li><a href="https://git-scm.com/" target="_blank">Git</a></li>
+    <li><a href="https://desktop.github.com/" target="_blank">GitHub Desktop</a> - Ajuda a fazer a junção entre o git e o GITHUB, fazendo a comunicação entre eles.</li>
+    <li><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></li>
+</ul>
+<h2><a name="intalação">PASSO A PASSO:</a></h2>
+<ol type="1">
+    <li>Baixar o Git - <a href="https://git-scm.com/" target="_blank">Link</a></li>
+    <li>Criar uma conta no GitHub - <a href="https://github.com/" target="_blank">Link</a></li>
+    <li>Baixar o GitHub Desktop - <a href="https://desktop.github.com/" target="_blank">Link</a></li>
+    <li>Vs Code - <a href="https://code.visualstudio.com/" target="_blank">Link</a></li>
+</ol>
+<p>Detalhes:</p>
+<p>Intalação:</p>
+<figure>
+    <img src="img6/intalacao.png">
+</figure>
+<p>Criação da conta:</p>
+<figure>
+    <img src="img6/criarconta.png" width="900" height="500">
+</figure>
+<p>Após criar a conta, a página já pode ser acessada e configurada com os projetos:</p>
+<figure>
+    <img src="img6/paginainicial.png">
+</figure>
+<p>Após isso, cria um repositório:</p>
+<figure>
+    <img src="img6/criarrepositorio.jpg">
+</figure>
+<p>Cria um nome para o repositório, onde irá salvar dentro de uma pasta, como sugestão a que foi criada junto com sua conta no GitHub.<br>Importante ativar o README, para ler os códigos.</p>
+<figure>
+    <img src="img6/repositorio1.png">
+</figure>
+<p>Caso sua publicação for pública, é escolhido uma licença:</p>
+<figure>
+    <img src="img6/Licenca.png">
+</figure>
+<p>Então clica em criar o repositório:</p>
+<figure>
+    <img src="img6/paginacriada.png">
+</figure>
+<p>Automaticamente a pasta com os repositórios e qrquivos serão salvos nos arquivos do computador, na pasta GitHub.</p>
+<figure>
+    <img src="img6/pasta.png">
+</figure>
+<p>Agora no repositório remoto, precisa publicar o repositório feito na plataforma GitHub</p>
+<figure>
+    <img src="img6/publicar.jpg">
+</figure>
+<p>Configura o nome, seleciona a opção de privar ou não, depois disso publica e assim será feita a sincronização da máquina com a plataforma GitHUb</p>
+<figure>
+    <img src="img6/sincronizar.png">
+    <img src="img6/plataforma.jpg">
+    <img src="img6/parte1.png">
+</figure>
+<p>Desta forma o repositório já está funcional</p>
+<p>Agora já se torna possível o repositório no Visual Studio Code, fazendo as alterações necessárias:</p>
+<figure>
+    <img src="img6/vs.jpg">
+    <img src="img6/vs1.jpg">
+</figure>
+<p>As alterações precisam ser saalvas no visual studio code e precisar configurar para salvar no GitHub que ainda não está salvo no repositor remoto.</p>
+<figure>
+    <img src="img6/vs2.png">
+</figure>
+<p>Então precisa identificar a atualização feita:</p>
+<figure>
+    <img src="img6/readme.png">
+</figure>
+<p>As alterações feitas podem ser conferidas no histórico.</p>
+<p>Para atualizar e sincrinizar com o controle remoto usa-se o comando push.</p>
+<figure>
+    <img src="img6/push.png">
+</figure>
+<p>O comando fetch irá mostrar se as atualizações feitas estão sincronizadas:</p>
+<figure>
+    <img src="img6/fetch.jpg">
+    <img src="img6/fetch2.png">
+</figure>
+
+<p><strong>A vantagem de utilizar um sistema de versionamento, com a possibilidade de manter um repositório local e um repositório remoto, é porque é possível fazer alterações de códigos do projeto em qualquer local, permitindo saber se está ou não sincronizado com a plataforma.</strong></p>
+<h1><strong><a name="comandos">COMANDOS GIT</a></strong></h1>
+<UL>
+    <li>commit: Torna permanente um conjunto de alterações em um repositório.</li>
+    <li>push: Envia alterações para o servidor em um repositório remoto.</li>
+    <li>fetch: Verifica se o seu repositório local está em sincronia com o remoto.</li>
+    <li>pull: Sincroniza o repositório local com o remoto atualizando as versões.</li>
+</UL>
+<h1><a name="clonar">CLONANDO REPOSITÓRIOS</a></h1>
+<p>Cópia do repositório remoto, localmente.</p>
+<p>É preciso acessar a conta do GitHub para realizar o procedimento:</p>
+<figure>
+    <img src="img6/clonar1.png">
+    <img src="img6/clonar2.jpg">
+</figure>
+<p>Salva corretamente na pasta, com nome e descrição. Escolhe como privado ou público(caso for público, diciona a licença) e publica.</p>
+<figure>
+    <img src="img6/clonar3.png">
+    <img src="img6/clonar4.png>">
+    <img src="img6/clonar5.png">
+    <img src="img6/clonar6.png">
+</figure>
+
+<h1><strong><a name="projetos">PROJETOS PRÉ-EXISTENTES</a></strong></h1>
+<a href="https://github.com/JessicaRogalCaldas/DWEB_" target="_blank">PROJETOS RDE06</a>
+</p>
+</p>
+</body>
+</html>
