@@ -1,0 +1,19 @@
+body{
+    background-color: lightgray;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: lightslategrey;
+    color:lightgray;
+    text-align: center;
+    font-size: 28px;
+}
+h2{
+    color:darkslategrey;
+}
+h3{
+    color:slategrey;
+}
+ul{
+    color:dimgray;
+}
