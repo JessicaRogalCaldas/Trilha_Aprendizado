@@ -1,0 +1,102 @@
+div{
+    background-color: rgb(73, 78, 82);
+    margin: 10px; 
+}
+span{
+    font-weight: bold;
+
+}
+h1#principal{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(5, 40, 49);
+    border: 2px solid rgb(180, 168, 209);
+}
+div.agrupamento1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:rgb(127, 128, 134);
+    border: 2px solid rgb(27, 12, 61);
+    margin:20px;
+    padding: 10px;
+}
+.pseudo:hover>span{
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+div.agrupamento{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    background-color:rgb(127, 128, 134);
+    border: 2px solid rgb(27, 12, 61);
+    margin:20px;
+    padding: 10px;
+}
+.ex1{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(85, 58, 100);
+    color:rgb(255, 255, 255);
+    border:  2px solid rgb(255, 255, 255);
+    margin:20px;
+    padding:10px;
+    width: 80px;
+    height: 30px;
+}
+.ex2{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(85, 58, 100);
+    color:rgb(255, 255, 255);
+    border:  2px solid rgb(255, 255, 255);
+    margin:20px;
+    padding:10px;
+    width: 80px;
+    height: 30px;
+}
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(127, 128, 134);
+    color:rgb(0, 0, 0);
+    border:  2px solid rgb(27, 12, 61);
+    margin:20px;
+    padding:10px;
+}
+.personalizado:hover{
+    color:rgb(255, 255, 255);
+    background-color: rgb(85, 58, 100);
+    margin: 40px;
+    padding: 40px;
+
+}
+a:link{
+    color:rgb(83, 8, 153);
+
+}
+a:visited {
+  color: rgb(105, 4, 136);
+}
+
+
+a:hover {
+  color: rgb(60, 34, 175);
+}
+
+a:active {
+  color: rgb(37, 2, 66);
+}
+.pseudo>span{
+    display: none;
+
+}
+.pseudo:hover>span{
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+h3::selection{
+    color:rgb(19, 139, 119);
+    background-color: skyblue;
+}
+p::first-letter{
+    color: rgb(5, 40, 49);
+    font-size: xx-large;
+}
