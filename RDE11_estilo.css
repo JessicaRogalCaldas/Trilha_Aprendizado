@@ -13,17 +13,21 @@ h1#principal{
     background-color: rgb(5, 40, 49);
     border: 2px solid rgb(180, 168, 209);
 }
-div.agrupamento1{
+.img>span{
+    display: none;
+
+}
+.img:hover>span{
+    display: block;
+}
+div.img{
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(255, 255, 255);
     background-color:rgb(127, 128, 134);
     border: 2px solid rgb(27, 12, 61);
     margin:20px;
     padding: 10px;
-}
-.pseudo:hover>span{
-    display: block;
-    background-color: rgb(255, 255, 255);
+
 }
 div.agrupamento{
     font-family: Arial, Helvetica, sans-serif;
@@ -63,7 +67,7 @@ div.agrupamento{
 }
 .personalizado:hover{
     color:rgb(255, 255, 255);
-    background-color: rgb(85, 58, 100);
+    background-color: rgb(156, 148, 160);
     margin: 40px;
     padding: 40px;
 
@@ -95,8 +99,4 @@ a:active {
 h3::selection{
     color:rgb(19, 139, 119);
     background-color: skyblue;
-}
-p::first-letter{
-    color: rgb(5, 40, 49);
-    font-size: xx-large;
 }

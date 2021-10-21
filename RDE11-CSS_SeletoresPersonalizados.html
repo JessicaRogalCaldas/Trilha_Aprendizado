@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img" type="img/x-icon">
+    <link rel="icon" href="img11/rde11.ico" type="img/x-icon">
     <title>Seletores Personalizados</title>
     <link rel="stylesheet" href="RDE11_estilo.css">
 </head>
@@ -12,12 +12,18 @@
 <div></div>
     <h1 id="principal">Elementos block-level, inline e Seletores Personalizados</h1>
 
-    <div class="agrupamento1">
+    <div class="agrupamento">
         <h2>Agrupamento de elementos</h2>
         Os elementos < div> e < span> são usados para agrupar e estruturar um documento e são frequentemente usados em conjunto com os atributos <strong><ins>class</ins></strong> e <strong><ins>id</ins>.</strong>
-        <span>Exemplo:
+        <div class="img">
+        Sintaxe:
+        <span>
             <figure><img src="img11/11-1.png"></figure>
+            <figure><img src="img11/11-4.png"></figure>
+        Algumas informações:
+        <ul><li><ins>tag div-</ins> dividir em blocos de conteúdo.</li><li><ins>margin</ins> é o espaçamento entre um bloco e outro.</li><li><ins>tag span-</ins><ins>font-weight</ins> - peso de fonte: enfase no texto.</li></ul>
         </span>
+        </div>
     </div>
     
     <div class="agrupamento">
@@ -26,8 +32,14 @@
         Exemplo:
         <div class="ex1">Bloco 1</div>
         <div class="ex2">Bloco 2</div>
+        <div class="img">
+            Sintaxe:
+            <span>
+                <figure><img src="img11/11-2.png"></figure>
+                <figure><img src="img11/11-3.png" width="30%" height="30%"></figure>
+            </span>
+        </div>
     </div>
-    
     <div class="agrupamento">
         <h2>Elementos Inline</h2>
         O elemento < span> é um elemento inline. É um <span>elemento neutro</span> embutidos que marcam um bloco dentro de uma mesma linha ou parágrafo. Pode ser usado pelo CSS para estilização de partes específicas do conteúdo do documento HTML
@@ -35,13 +47,27 @@
     
     <div class="personalizado">
         <h2>Seletores Personalizados</h2>
-        Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo classe e o seletor do tipo id
+        Possibilita personalizar tags do documento HTML para estilização. Temos os seletores do tipo <strong>Classe</strong> e o seletor do tipo <strong>Id</strong>
         
         <h3>Seletor do tipo Id - <strong>"#"</strong></h3>
-        O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. <ins><i><strong>Cada id é única</strong></i></ins>. O seletor de id é representado por “#”.
-        
+         O seletor de id usa o atributo id de um elemento HTML para selecionar um elemento específico. <ins><i><strong>Cada id é única</strong></i></ins>. O seletor de id é representado por “#”.
+        <div class="img">
+            Sintaxe:
+            <span>
+                <figure><img src="img11/11-5.png"></figure>
+                Algumas informações:
+                <ul><li><ins>font-family seoge:</ins> letra sem serifa;</li></ul>
+            </span>
+        </div>
         <h3>Seletor do tipo Classe - <strong>"."</strong></h3>
         O seletor de classe seleciona elementos HTML com um atributo de classe específico.O seletor de classe é representado por um ponto, “.”, e tem como alvo elementos com um determinado valor para seu atributo class. Para casos em que haja necessidade de mais de um elemento com a mesma identificação usamos o atributo class.
+        <div class="img">
+            Sintaxe:
+            <span>
+                <figure><img src="img11/11-6.png"></figure>
+                <ul><li><ins>padding:</ins> espaçamento entre bloco e texto</li></ul>
+            </span>
+        </div>
         
         <div class="pseudo">
         <h3>Pseudo-Classes - <strong>":"</strong></h3>
@@ -52,31 +78,29 @@
         <a href="https://www.w3schools.com/cssref/sel_hover.asp" target="_blank">Hover</a>
         <a href="https://www.w3schools.com/cssref/sel_visited.asp" target="_blank">Visited</a>
         </span>
+        <div class="img">
+            Sintaxe:
+            <span>
+                Altera a medida que passa o mouse:
+                <figure><img src="img11/11-7.png"></figure>
+                Para exibição e para desaparecer de acordo com o houver:
+                <figure><img src="img11/11-10.png"></figure>
+                <ul><li><ins>display:none</ins> - tudo que estiver envolvido no span é para sumir</li>
+                    <li><ins>pseudo hover>span</ins> - para exibir</li></ul>
+
+            </span>
+        </div>
         </div>
         
         <h3>Pseudo-Elementos - <strong>"::"</strong></h3>
         Usado para estilizar partes específicas de um elemento.O seletor de classe é representado por dois pontos seguido de dois pontos, “::”
+        <div class="img">
+            Sintaxe:
+            <span><figure><img src="img11/11-8.png"></figure>
+            Quando selecionado ele muda de cor.<figure><img src="img11/11-9.png"></figure></span>
+        </div>
+    </div>
     </div>
     
 </body>
 </html>
-
-tag div- dividir em blocos de conteúdo.
-margin é o espaçamento entre um bloco e outro.
-
-tag span- 
-font-weight - peso de fonte: enfase no texto.
-
-id- 
-font-family seoge... letra sem serifa
-imagem h1#principal
-padding espaçamento entre bloco e texto
-
-classe- imagem de exemplo q ta com . 
-
-pseudoclasse - exemplo de : 
-altera a medida que passa o mouse
-
-pseudo > 
-display:none tudo que estiver envolvido no span é para sumir
-pseudo hover>span exibir
