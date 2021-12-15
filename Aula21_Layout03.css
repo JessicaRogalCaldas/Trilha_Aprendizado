@@ -1,7 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right,#f24162b6,#F2A679);
-    width: 90%;
+    background-image: linear-gradient(to bottom,#f24162b6,#F2A679);
+    width: 80%;
     margin:0 auto;
 }
 header{
@@ -28,23 +28,13 @@ header{
 .navegacao a:hover{
     color:#F2A679;
 }
-.conteudo{
-    float:left;
-    padding:14px;
-}
-.conteudo.lateral{
-    width:20%;
-    margin:10px 2px 25px 2px;
-    background-color:#F2A679;
-}
-.conteudo.central{
-    width: 52%;
-    height: 282px;
-    margin:10px 2px 2px 2px;
-    background-color: #F2A679;
-}
 .principal{
-    color:#590202ad;
+    margin:15px 2px 25px 2px;
+    background-color: #590202ad;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #591202;
 }
 .rodape{
     color: #591202;
