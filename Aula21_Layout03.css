@@ -42,6 +42,21 @@ header{
     text-align: center;
     padding: 20px;
 }
+a:link{
+    color:rgb(0, 0, 0);
+  
+}
+  a:visited {
+  color: rgb(255, 0, 0);
+}
+  
+  a:hover {
+  color: rgb(253, 30, 205);
+}
+  
+  a:active {
+  color: rgb(66, 2, 47);
+}
 @media screen and (max-width:800px){
     .principal, .conteudo.central, .conteudo.lateral{
         width: 100%;
