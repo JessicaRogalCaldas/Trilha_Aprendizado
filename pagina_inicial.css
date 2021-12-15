@@ -28,41 +28,36 @@ header{
 .navegacao a:hover{
     color:#00ff0d;
 }
+.principal{
+    margin:15px 2px 25px 2px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #000000;
+}
+.rodape{
+    color: #000000;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
 a:link{
     color:rgb(2, 10, 53);
   
 }
 a:visited {
     color: rgb(0, 0, 0);
-  }
-    
-    
-    a:hover {
-    color: rgb(253, 30, 205);
-  }
-    
-    a:active {
-    color: rgb(66, 2, 47);
-  }
-.inicio{
-    position: fixed;
-    background-color: rgba(1, 230, 255, 0.719);
-    top: 0px;
-    width: 65px;
-    height: 50px;
-    left: 0px;
-    text-align: justify;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px #A0D9D9;
 }
-.conteudo{
-    float: left;
-    margin: 15px 2px 25px 2px;
-    background-color:#BEC7C7 ;
-    width: 30.5%;
-    text-align: justify;
-    padding: 15px;
-    border-radius: 5px;
-    box-shadow: 10px 10px 10px #000000;
+a:hover {
+    color: rgb(253, 30, 205);
+}
+    
+a:active {
+    color: rgb(66, 2, 47);
+}
+@media screen and (max-width:800px){
+    .principal, .conteudo.central, .conteudo.lateral{
+        width: 100%;
+        padding: 0;
+    }
 }
