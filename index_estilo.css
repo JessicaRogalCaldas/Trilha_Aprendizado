@@ -8,21 +8,21 @@ h1#principal{
     border: 2px solid rgb(148, 6, 29);
 }
 a:link{
-  color:rgb(0, 255, 115);
-
-}
-a:visited {
-color: rgb(0, 0, 0);
-}
-
-
-a:hover {
-color: rgb(253, 30, 205);
-}
-
-a:active {
-color: rgb(66, 2, 47);
-}
+    color:rgb(0, 255, 115);
+  
+  }
+  a:visited {
+  color: rgb(0, 0, 0);
+  }
+  
+  
+  a:hover {
+  color: rgb(253, 30, 205);
+  }
+  
+  a:active {
+  color: rgb(66, 2, 47);
+  }
 div.borda{
     background-color: pink;
     text-align: center;
