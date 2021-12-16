@@ -1,33 +1,75 @@
 body{
-    background-color: rgb(255, 227, 236);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#02735E,#04BF9D,#d3cece,#ffffff);
+    width: 90%;
+    margin:0 auto;
 }
-h1#principal{
-    color:rgb(255, 2, 120);
-    background-color: pink;
-    text-align: center;
-    border: 2px solid rgb(148, 6, 29);
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#08352785;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 45%;
+    padding-top: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{
+    float: right;
+    display: block;
+    color:cornsilk;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px 10px;
+}
+.navegacao a:hover{
+    color:#00ff0d;
 }
 a:link{
-    color:rgb(0, 255, 115);
+    color:rgb(2, 10, 53);
   
+}
+a:visited {
+    color: rgb(0, 0, 0);
   }
-  a:visited {
-  color: rgb(0, 0, 0);
+    
+    
+    a:hover {
+    color: rgb(253, 30, 205);
   }
-  
-  
-  a:hover {
-  color: rgb(253, 30, 205);
+    
+    a:active {
+    color: rgb(66, 2, 47);
   }
-  
-  a:active {
-  color: rgb(66, 2, 47);
-  }
-div.borda{
-    background-color: pink;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    border:  2px solid rgb(148, 6, 29);
-    margin:20px;
-    padding:10px;
+.inicio{
+    position: fixed;
+    background-color: rgba(1, 230, 255, 0.719);
+    top: 0px;
+    width: 65px;
+    height: 50px;
+    left: 0px;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #A0D9D9;
+}
+.conteudo{
+    float: left;
+    margin: 15px 2px 25px 2px;
+    background-color:#BEC7C7 ;
+    width: 30.5%;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #000000;
+}
+@media screen and (max-width:800px){
+    .principal, .conteudo{
+        width: 100%;
+        padding: 0;
+    }
+
 }
