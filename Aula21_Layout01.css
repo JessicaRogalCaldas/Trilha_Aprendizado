@@ -59,7 +59,7 @@ a:link{
   a:active {
   color: rgb(66, 2, 47);
   }
-@media screen and (max-width:800px){
+  @media screen and (max-width:800px){
     .principal, .conteudo{
         width: 100%;
         padding: 0;
